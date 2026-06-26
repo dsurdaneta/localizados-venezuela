@@ -18,3 +18,7 @@ public/uploads/*
 .eslintcache
 *.tsbuildinfo
 .DS_Store
+
+# editor / IDE
+.vs/**
+.vscode/**
