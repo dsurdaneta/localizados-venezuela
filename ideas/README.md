@@ -32,23 +32,25 @@ When two ideas tie, prefer the one with **lower effort** and **lower risk** (fas
 
 ## Prioritized backlog
 
-| #   | Idea                                                          | Priority | Value | Effort | Risk | Perf |
-| --- | ------------------------------------------------------------ | -------- | ----- | ------ | ---- | ---- |
-| 01  | [PII exposure in public API](01-pii-exposure-public-api.md)  | **P0**   | High  | Med    | Med  | -    |
-| 02  | [DB connection cache wedge](02-db-connection-cache-bug.md)   | **P0**   | High  | Low    | Low  | High |
-| 03  | [Admin auth: shared static secret](03-admin-auth-shared-secret.md) | **P0** | High | Med  | Med  | -    |
-| 04  | [Rate limiting & abuse protection](04-rate-limiting-abuse.md) | **P1**   | High  | Med    | Low  | Med  |
-| 05  | [Public form creates Lugares](05-public-form-creates-lugares.md) | **P1** | Med | Low    | Low  | -    |
-| 06  | [Cédula search can't use index](06-cedula-search-index.md)   | **P1**   | Med   | Low    | Low  | High |
-| 07  | [No caching on public reads](07-public-read-caching.md)      | **P1**   | High  | Med    | Med  | High |
-| 08  | [No automated tests](08-automated-tests.md)                  | **P1**   | High  | Med    | Low  | -    |
-| 09  | [Upload hardening](09-upload-hardening.md)                   | **P2**   | Med   | Med    | Low  | -    |
-| 10  | [Bulk-op error reporting](10-bulk-op-error-reporting.md)     | **P2**   | Med   | Low    | Low  | Med  |
-| 11  | [Observability & error logging](11-observability.md)         | **P2**   | Med   | Med    | Low  | -    |
-| 12  | [Search/listing pagination UX](12-search-pagination-ux.md)   | **P2**   | Med   | Low    | Low  | -    |
-| 13  | [Dedup / fuzzy matching](13-dedup-fuzzy-matching.md)         | **P3**   | Med   | High   | Med  | -    |
-| 14  | [Dependency & supply-chain hygiene](14-dependency-supply-chain.md) | **P3** | Med | Low | Low  | -    |
-| 15  | [Generated OpenAPI docs](15-api-openapi-docs.md)             | **P3**   | Low   | Med    | Low  | -    |
+**Progress** tracks implementation status: `Not started` -> `In progress` -> `In review` -> `Done` (use `Blocked` when stuck).
+
+| #   | Idea                                                          | Priority | Value | Effort | Risk | Perf | Progress    |
+| --- | ------------------------------------------------------------ | -------- | ----- | ------ | ---- | ---- | ----------- |
+| 01  | [PII exposure in public API](01-pii-exposure-public-api.md)  | **P0**   | High  | Med    | Med  | -    | Not started |
+| 02  | [DB connection cache wedge](02-db-connection-cache-bug.md)   | **P0**   | High  | Low    | Low  | High | Not started |
+| 03  | [Admin auth: shared static secret](03-admin-auth-shared-secret.md) | **P0** | High | Med  | Med  | -    | Not started |
+| 04  | [Rate limiting & abuse protection](04-rate-limiting-abuse.md) | **P1**   | High  | Med    | Low  | Med  | Not started |
+| 05  | [Public form creates Lugares](05-public-form-creates-lugares.md) | **P1** | Med | Low    | Low  | -    | Not started |
+| 06  | [Cédula search can't use index](06-cedula-search-index.md)   | **P1**   | Med   | Low    | Low  | High | Not started |
+| 07  | [No caching on public reads](07-public-read-caching.md)      | **P1**   | High  | Med    | Med  | High | Not started |
+| 08  | [No automated tests](08-automated-tests.md)                  | **P1**   | High  | Med    | Low  | -    | Not started |
+| 09  | [Upload hardening](09-upload-hardening.md)                   | **P2**   | Med   | Med    | Low  | -    | Not started |
+| 10  | [Bulk-op error reporting](10-bulk-op-error-reporting.md)     | **P2**   | Med   | Low    | Low  | Med  | Not started |
+| 11  | [Observability & error logging](11-observability.md)         | **P2**   | Med   | Med    | Low  | -    | Not started |
+| 12  | [Search/listing pagination UX](12-search-pagination-ux.md)   | **P2**   | Med   | Low    | Low  | -    | Not started |
+| 13  | [Dedup / fuzzy matching](13-dedup-fuzzy-matching.md)         | **P3**   | Med   | High   | Med  | -    | Not started |
+| 14  | [Dependency & supply-chain hygiene](14-dependency-supply-chain.md) | **P3** | Med | Low | Low  | -    | Not started |
+| 15  | [Generated OpenAPI docs](15-api-openapi-docs.md)             | **P3**   | Low   | Med    | Low  | -    | Not started |
 
 ## Suggested execution order
 
